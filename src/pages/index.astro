@@ -1,0 +1,67 @@
+---
+import "../styles/global.css";
+import Footer from "../components/Footer.astro";
+import Hero from "../components/Hero.astro";
+import Section from "../components/Section.astro";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <meta property="og:image" content="img/img_00.jpg" />
+    <meta
+      name="description"
+      property="og:description"
+      content="Simple Astro Landing Page Theme is... just that, a simple FREE, CUSTOMIZABLE, and PRODUCCTION-READY, Landing Page Theme build with Astro and Tailwind CSS."
+    />
+    <title>Simple Astro Landing Page Theme | KuroShi Tec</title>
+  </head>
+  <body>
+    <header class="landing-header">
+      <Hero
+        title="Simple Astro Landing Page Theme"
+        text="Simple Astro Landing Page Theme is... just that, a simple FREE, CUSTOMIZABLE, and PRODUCCTION-READY, Landing Page Theme build with Astro and Tailwind CSS."
+        imgSrc="img/img_00.jpg"
+      />
+    </header>
+    <main>
+      <Section
+        title="Section 1"
+        text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis similique voluptatum corrupti dolore, assumenda sapiente unde consectetur, magni laboriosam deserunt nisi, cupiditate sunt quam fuga omnis sed nulla. Soluta, quam."
+        imagePosition="right"
+        imgSrc="/img/img_01.jpg"
+        imgAlt="Img Alt"
+      />
+
+      <Section
+        title="Section 2"
+        text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis similique voluptatum corrupti dolore, assumenda sapiente unde consectetur, magni laboriosam deserunt nisi, cupiditate sunt quam fuga omnis sed nulla. Soluta, quam."
+        imagePosition="left"
+        imgSrc="img/img_01.jpg"
+        imgAlt="Img Alt"
+      />
+
+      <Section
+        title="Section 3"
+        text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis similique voluptatum corrupti dolore, assumenda sapiente unde consectetur, magni laboriosam deserunt nisi, cupiditate sunt quam fuga omnis sed nulla. Soluta, quam."
+        imagePosition="right"
+        imgSrc="img/img_01.jpg"
+        imgAlt="Img Alt"
+      />
+    </main>
+  </body>
+  <Footer
+    title="Simple Astro Landing Page Theme"
+    address="Example Address, 6 - Somewhere in the world (99999), Spain"
+    text="A simple Landing Page built with Astro, TailwindCSS and TypeScript."
+  />
+</html>
