@@ -2,7 +2,7 @@
 
 ## A simple Landing Page built with Astro, TailwindCSS and TypeScript
 
-![SimpleAstroLandingPage](public/img/mockup.jpg)
+![SimpleAstroLandingPage](public/img/mockup.png)
 
 Simple Astro Landing Page Theme is... just that, a simple FREE, CUSTOMIZABLE, and PRODUCCTION-READY, Landing Page Theme build with Astro and Tailwind CSS.
 
